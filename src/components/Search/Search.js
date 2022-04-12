@@ -1,6 +1,5 @@
-import React from "react";
-import "./Search.css";
-import searchIcon from "../../../src/search-icon.png";
+import React from 'react';
+import './Search.css';
 
 const Search = (props) => {
   return (
@@ -12,9 +11,8 @@ const Search = (props) => {
           maxLength="50"
           value={props.city}
         />
-        <a
-        >
-          <img src={searchIcon}></img>
+        <a>
+          <button>Search</button>
         </a>
       </div>
     </div>
